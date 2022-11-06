@@ -173,7 +173,7 @@ pygments==2.11.2
     # via
     #   -r requirements.in
     #   pygments-lexer-solidity
-pyjwt==1.7.1
+pyjwt==2.4.0
     # via pythx
 pyparsing==3.0.7
     # via packaging
@@ -243,7 +243,7 @@ varint==1.0.2
     # via multiaddr
 vvm==0.1.0
     # via -r requirements.in
-vyper==0.3.1
+vyper==0.3.4
     # via -r requirements.in
 wcwidth==0.2.5
     # via prompt-toolkit
