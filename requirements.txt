@@ -148,7 +148,7 @@ pluggy==1.0.0
     # via pytest
 prompt-toolkit==3.0.26
     # via -r requirements.in
-protobuf==3.19.4
+protobuf==3.19.5
     # via web3
 psutil==5.9.0
     # via -r requirements.in
@@ -173,7 +173,7 @@ pygments==2.11.2
     # via
     #   -r requirements.in
     #   pygments-lexer-solidity
-pyjwt==1.7.1
+pyjwt==2.4.0
     # via pythx
 pyparsing==3.0.7
     # via packaging
