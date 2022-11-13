@@ -47,7 +47,7 @@ eth-abi==2.1.1
     #   eth-account
     #   eth-event
     #   web3
-eth-account==0.5.7
+eth-account==0.5.9
     # via
     #   -r requirements.in
     #   web3
@@ -59,7 +59,7 @@ eth-hash[pycryptodome]==0.3.2
     #   eth-event
     #   eth-utils
     #   web3
-eth-keyfile==0.5.1
+eth-keyfile==0.6.0
     # via eth-account
 eth-keys==0.3.4
     # via
@@ -148,7 +148,7 @@ pluggy==1.0.0
     # via pytest
 prompt-toolkit==3.0.26
     # via -r requirements.in
-protobuf==3.19.4
+protobuf==3.19.5
     # via web3
 psutil==5.9.0
     # via -r requirements.in
@@ -173,7 +173,7 @@ pygments==2.11.2
     # via
     #   -r requirements.in
     #   pygments-lexer-solidity
-pyjwt==1.7.1
+pyjwt==2.4.0
     # via pythx
 pyparsing==3.0.7
     # via packaging
@@ -249,7 +249,7 @@ wcwidth==0.2.5
     # via prompt-toolkit
 web3==5.27.0
     # via -r requirements.in
-websockets==9.1
+websockets==10.0
     # via web3
 wrapt==1.13.3
     # via -r requirements.in
