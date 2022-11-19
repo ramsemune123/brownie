@@ -82,7 +82,7 @@ eth-hash[pycryptodome]==0.3.2
     #   eth-event
     #   eth-utils
     #   web3
-eth-keyfile==0.5.1
+eth-keyfile==0.6.0
     # via
     #   -r requirements.txt
     #   eth-account
