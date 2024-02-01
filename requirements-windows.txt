@@ -221,7 +221,7 @@ py==1.11.0
     #   -r requirements.txt
     #   pytest
     #   pytest-forked
-pycryptodome==3.14.1
+pycryptodome==3.19.1
     # via
     #   -r requirements.txt
     #   eip712
