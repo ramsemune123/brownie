@@ -22,7 +22,7 @@ base58==2.1.1
     # via multiaddr
 bitarray==1.2.2
     # via eth-account
-black==22.1.0
+black==24.3.0
     # via -r requirements.in
 certifi==2021.10.8
     # via requests
