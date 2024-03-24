@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements-windows.in
 #
-aiohttp==3.8.1
+aiohttp==3.9.2
     # via
     #   -r requirements.txt
     #   web3
@@ -35,9 +35,9 @@ bitarray==1.2.2
     # via
     #   -r requirements.txt
     #   eth-account
-black==22.1.0
+black==24.3.0
     # via -r requirements.txt
-certifi==2021.10.8
+certifi==2023.7.22
     # via
     #   -r requirements.txt
     #   requests
@@ -63,14 +63,14 @@ dataclassy==0.11.1
     #   eip712
 eip712==0.1.0
     # via -r requirements.txt
-eth-abi==2.1.1
+eth-abi==5.0.1
     # via
     #   -r requirements.txt
     #   eip712
     #   eth-account
     #   eth-event
     #   web3
-eth-account==0.5.7
+eth-account==0.5.9
     # via
     #   -r requirements.txt
     #   web3
@@ -82,7 +82,7 @@ eth-hash[pycryptodome]==0.3.2
     #   eth-event
     #   eth-utils
     #   web3
-eth-keyfile==0.5.1
+eth-keyfile==0.6.0
     # via
     #   -r requirements.txt
     #   eth-account
@@ -206,7 +206,7 @@ pluggy==1.0.0
     #   pytest
 prompt-toolkit==3.0.26
     # via -r requirements.txt
-protobuf==3.19.4
+protobuf==3.19.5
     # via
     #   -r requirements.txt
     #   web3
@@ -221,7 +221,7 @@ py==1.11.0
     #   -r requirements.txt
     #   pytest
     #   pytest-forked
-pycryptodome==3.14.1
+pycryptodome==3.19.1
     # via
     #   -r requirements.txt
     #   eip712
@@ -230,7 +230,7 @@ pycryptodome==3.14.1
     #   vyper
 pygments-lexer-solidity==0.7.0
     # via -r requirements.txt
-pygments==2.11.2
+pygments==2.15.0
     # via
     #   -r requirements.txt
     #   pygments-lexer-solidity
@@ -268,7 +268,7 @@ pythx==1.6.1
     # via -r requirements.txt
 pyyaml==5.4.1
     # via -r requirements.txt
-requests==2.27.1
+requests==2.31.0
     # via
     #   -r requirements.txt
     #   ipfshttpclient
@@ -318,7 +318,7 @@ typing-extensions==4.0.1
     # via
     #   -r requirements.txt
     #   black
-urllib3==1.26.8
+urllib3==1.26.18
     # via
     #   -r requirements.txt
     #   requests
@@ -328,7 +328,7 @@ varint==1.0.2
     #   multiaddr
 vvm==0.1.0
     # via -r requirements.txt
-vyper==0.3.1
+vyper==0.3.10rc4
     # via -r requirements.txt
 wcwidth==0.2.5
     # via
@@ -336,7 +336,7 @@ wcwidth==0.2.5
     #   prompt-toolkit
 web3==5.27.0
     # via -r requirements.txt
-websockets==9.1
+websockets==10.0
     # via
     #   -r requirements.txt
     #   web3
@@ -349,3 +349,4 @@ yarl==1.7.2
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
