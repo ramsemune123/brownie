@@ -104,7 +104,7 @@ hexbytes==0.2.2
     #   web3
 hypothesis==6.27.3
     # via -r requirements.in
-idna==3.3
+idna==3.7
     # via
     #   requests
     #   yarl
