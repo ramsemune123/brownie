@@ -194,7 +194,7 @@ tomli==1.2.2
     #   pep517
 tox==3.24.4
     # via -r requirements-dev.in
-tqdm==4.62.3
+tqdm==4.66.3
     # via
     #   -c requirements.txt
     #   twine
