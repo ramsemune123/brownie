@@ -268,7 +268,7 @@ pythx==1.6.1
     # via -r requirements.txt
 pyyaml==5.4.1
     # via -r requirements.txt
-requests==2.27.1
+requests==2.32.0
     # via
     #   -r requirements.txt
     #   ipfshttpclient
