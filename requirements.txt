@@ -237,7 +237,7 @@ tqdm==4.62.3
     # via -r requirements.in
 typing-extensions==4.0.1
     # via black
-urllib3==1.26.8
+urllib3==1.26.19
     # via requests
 varint==1.0.2
     # via multiaddr
