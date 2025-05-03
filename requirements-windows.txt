@@ -230,7 +230,7 @@ pycryptodome==3.14.1
     #   vyper
 pygments-lexer-solidity==0.7.0
     # via -r requirements.txt
-pygments==2.11.2
+pygments==2.15.0
     # via
     #   -r requirements.txt
     #   pygments-lexer-solidity
@@ -349,3 +349,4 @@ yarl==1.7.2
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
