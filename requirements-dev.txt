@@ -49,7 +49,7 @@ docutils==0.17.1
     #   readme-renderer
     #   sphinx
     #   sphinx-rtd-theme
-filelock==3.3.1
+filelock==3.20.3
     # via
     #   tox
     #   virtualenv
